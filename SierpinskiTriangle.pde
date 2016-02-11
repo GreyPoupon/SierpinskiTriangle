@@ -5,14 +5,12 @@ public void setup()
   stroke(0,0,255);
   frameRate(2);
 }
+
 public void draw()
 {
   shapes(width/2, height/2, 400);
 }
-public void mouseDragged()//optional
-{
 
-}
 public void shapes(int x, int y, int len) 
 {
   fill((float)Math.random()*255, (float)Math.random()*255, (float)Math.random()*255);
